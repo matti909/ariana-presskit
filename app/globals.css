@@ -12,12 +12,17 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #0a0a1a;
     --foreground: #ededed;
   }
 }
 
 body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  max-width: 860px;
+  margin: auto;
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
