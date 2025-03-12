@@ -1,15 +1,16 @@
 import React from 'react'
 import pic2 from '../../public/arianep2.jpg'
 import Image from 'next/image'
+import style from './Bio.module.scss'
 
 const Bio = () => {
   return (
-    <section className='grid grid-cols-2'>
+    <section className={style.biomain}>
 
-      <div className='bg-transparent '>
-        <Image src={pic2} height={300} width={300} alt='ariana' objectFit='containt' />
+      <div>
+        <Image src={pic2} height={520} width={300} alt='ariana' objectFit='containt' />
       </div>
-      <div className='flex flex-col gap-5 py-10'>
+      <div>
         <h2 className='text-center text-4xl'>
           Biografia
         </h2>

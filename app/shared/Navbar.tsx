@@ -1,8 +1,9 @@
 import React from 'react'
+import style from './Navbar.module.scss'
 
 const Navbar = () => {
   return (
-    <nav className='h-10 bg-gray-500'>
+    <nav className={style.navbar}>
       <div>navbar</div>
     </nav>
   )
