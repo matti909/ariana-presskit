@@ -1,7 +1,15 @@
+@use '../styles/_mixin' as mx;
+
 .biomain {
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 10;
+
+  @include mx.breakpoint(md) {
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-items: center;
+  }
 
   div:nth-child(2) {
     background-color: transparent;

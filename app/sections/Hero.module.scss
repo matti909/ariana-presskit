@@ -1,7 +1,9 @@
 .pic {
-  width: 860px;
+  width: auto;
   height: 400px;
   background-image: url("/ariana.webp");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+  margin-block-start: 2.8rem;
 }
