@@ -6,4 +6,11 @@
   background-repeat: no-repeat;
   background-position: center;
   margin-block-start: 2.8rem;
+
+
+  div {
+    display: flex;
+    justify-content: center;
+    margin-block-start: 3em;
+  }
 }

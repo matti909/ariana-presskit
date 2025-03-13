@@ -11,6 +11,12 @@
     justify-items: center;
   }
 
+  div:nth-child(1) {
+    @include mx.breakpoint(md) {
+      order: 2;
+    }
+  }
+
   div:nth-child(2) {
     background-color: transparent;
     display: flex;

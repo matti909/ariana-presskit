@@ -4,7 +4,19 @@ import style from './Navbar.module.scss'
 const Navbar = () => {
   return (
     <nav className={style.navbar}>
-      <div>navbar</div>
+      <div>
+        <ul>
+          <li>
+            Contacto
+          </li>
+          <li>
+            Eventos
+          </li>
+          <li>
+            Videos
+          </li>
+        </ul>
+      </div>
     </nav>
   )
 }
