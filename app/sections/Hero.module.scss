@@ -1,16 +1,23 @@
 .pic {
   width: auto;
-  height: 400px;
-  background-image: url("/ariana.webp");
+  height: 80dvh;
+  background-image: url("/portada.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
   margin-block-start: 2.8rem;
-
+  position: relative;
+  clip-path: circle(180vh at 50% center);
 
   div {
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     display: flex;
     justify-content: center;
-    margin-block-start: 3em;
+    width: 100%;
+    padding-block-start: 2em;
   }
 }

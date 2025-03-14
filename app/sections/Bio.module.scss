@@ -3,7 +3,7 @@
 .biomain {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  gap: 10;
+  margin-block-start: 2rem;
 
   @include mx.breakpoint(md) {
     grid-template-columns: 1fr;
