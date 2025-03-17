@@ -36,6 +36,7 @@ export default function RootLayout({
       <body
         className={`${robotoSans.variable} ${robotoMono.variable} antialiased`}
       >
+        <div className="background"></div>
         <Navbar />
         <Hero />
         <main>
