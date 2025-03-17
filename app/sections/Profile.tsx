@@ -1,7 +1,7 @@
 import React from 'react'
-import pic3 from '../../public/arianap3.jpg'
-import Image from 'next/image'
 import style from './Profile.module.scss'
+import pic4 from '../../public/ariane4.jpg'
+import Image from 'next/image'
 
 const Profile = () => {
   return (
@@ -24,7 +24,7 @@ const Profile = () => {
         </p>
       </div>
       <div>
-        <Image src={pic3} alt='ariane-3' width={500} height={450} objectFit='cover' className={style.aspect} />
+        <Image src={pic4} alt='picture4' width={300} height={500} className={style.aspect} />
       </div>
     </section>
   )

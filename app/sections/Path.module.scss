@@ -1,6 +1,13 @@
+@use "../styles/_mixin.scss" as mx;
+
 .container {
   display: grid;
   grid-template-columns: 1fr 2fr;
+
+  @include mx.breakpoint (md) {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
 
   p {
     text-align: center;
