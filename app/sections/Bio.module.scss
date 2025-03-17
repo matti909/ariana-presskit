@@ -12,7 +12,6 @@
   }
 
   div:nth-child(1) {
-    mask-image: linear-gradient(black 75%, transparent);
 
     @include mx.breakpoint(md) {
       order: 2;
@@ -39,4 +38,10 @@
       line-height: 1.75rem;
     }
   }
+}
+
+.pic {
+
+  mask-image: linear-gradient(black 75%, transparent);
+  border-top-right-radius: 2rem;
 }

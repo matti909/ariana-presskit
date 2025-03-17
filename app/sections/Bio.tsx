@@ -8,7 +8,7 @@ const Bio = () => {
     <section className={style.biomain}>
 
       <div>
-        <Image src={pic2} height={520} width={300} alt='ariana' objectFit='containt' />
+        <Image src={pic2} height={520} width={300} alt='ariana' objectFit='containt' className={style.pic} />
       </div>
       <div>
         <h2 className='text-center text-4xl'>
