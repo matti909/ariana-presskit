@@ -12,6 +12,8 @@
   }
 
   div:nth-child(1) {
+    mask-image: linear-gradient(black 75%, transparent);
+
     @include mx.breakpoint(md) {
       order: 2;
     }

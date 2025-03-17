@@ -10,10 +10,15 @@
   }
 
   p {
-    padding: 2px 30px 2px 30px;
+    padding: 2px 20px 2px 30px;
     text-align: center;
     font-weight: bold;
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
+}
+
+.aspect {
+  mask-image: linear-gradient(black 75%, transparent);
+  aspect-ratio: 2/1;
 }

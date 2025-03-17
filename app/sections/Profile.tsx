@@ -24,7 +24,7 @@ const Profile = () => {
         </p>
       </div>
       <div>
-        <Image src={pic3} alt='ariane-3' width={400} height={500} objectFit='cover' />
+        <Image src={pic3} alt='ariane-3' width={500} height={450} objectFit='cover' className={style.aspect} />
       </div>
     </section>
   )
