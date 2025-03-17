@@ -1,0 +1,17 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+
+  p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    padding: 12px 30px 12px 30px;
+    margin-top: 2rem;
+  }
+}
+
+.pic {
+  mask-image: linear-gradient(black 70%, transparent);
+}

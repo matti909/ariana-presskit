@@ -1,13 +1,23 @@
 :root {
-  --background: #ffffff;
+  --background: hsl(0, 0%, 13%);
   --foreground: #171717;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: rgba(0, 0, 0, 0.9);
+    --background: #0b0b0b;
     --foreground: #ededed;
   }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  color: dark light;
 }
 
 body {
@@ -22,6 +32,7 @@ main {
   display: grid;
   grid-template-rows: auto 1fr auto;
   min-height: 100vh;
-  max-width: 860px;
-  margin: auto;
+  max-width: 60rem;
+  margin-inline: auto;
+  padding-inline: 1rem;
 }
