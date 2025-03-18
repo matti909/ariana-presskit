@@ -7,6 +7,10 @@
   @include mx.breakpoint (md) {
     grid-template-columns: 1fr;
     justify-items: center;
+
+    img {
+      order: 1;
+    }
   }
 
   p {
@@ -22,4 +26,6 @@
 .pic {
   mask-image: linear-gradient(black 70%, transparent);
   border-top-right-radius: 2rem;
+
+
 }
