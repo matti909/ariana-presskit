@@ -12,7 +12,6 @@
   }
 
   div:nth-child(1) {
-
     @include mx.breakpoint(md) {
       order: 2;
     }

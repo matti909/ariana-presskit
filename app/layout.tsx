@@ -4,6 +4,7 @@ import "./globals.scss";
 import Navbar from "./shared/Navbar";
 import Footer from "./shared/Footer";
 import Hero from "./sections/Hero";
+import Rider from "./sections/Rider";
 
 const robotoSans = Roboto({
   variable: "--font-roboto",
@@ -42,6 +43,7 @@ export default function RootLayout({
         <main>
           {children}
         </main>
+        <Rider />
         <Footer />
       </body>
     </html>
